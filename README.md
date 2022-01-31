@@ -1,7 +1,7 @@
 # Simple Spring Project with Docker
 
-- Create a simple spring project
-- install docker
+- [X] Create a simple spring project
+- [X] install docker
   - Create docker file
   - run build
     - sudo docker build -t simple-docker-project:1.0 .
@@ -10,3 +10,15 @@
   - run container
     - sudo docker run -p 8000:8080 simple-docker-project:1.0 
       - sudo docker run -p [portOnSystem:portOnContainer] simple-docker-project:1.0 
+- [ ] create a simple mongodb project
+  - [X] add an employee class
+  - [X] create crud operations for it
+    - [X] getEmployees
+    - [X] getEmployeesWithNameAndId
+    - [X] addEmployee
+    - [ ] deleteEmployee
+    - [ ] updateEmployee
+  - [ ] add rest features to it
+- [ ] use docker compose to deploy
+  - mongodb container
+  - springboot container      
