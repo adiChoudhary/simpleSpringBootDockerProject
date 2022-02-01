@@ -34,6 +34,11 @@
       - these steps are imp otherwise u will be running old dockerfile
     - to see what is currently running 
       - docker-compose ps
-- [] learn about why and how volumes are used
-- [] learn to use kubernetes to do the same stuff done with docker-compose
+- [ ] Add swagger support
+- [ ] Add logging
+- [ ] Check for log4j vulnerability
+- [ ] Use consul
+- [ ] Correct version error
+- [ ] learn about why and how volumes are used
+- [ ] learn to use kubernetes to do the same stuff done with docker-compose
     
